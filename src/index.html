@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+	<title>Карта</title>
+</head>
+
+<body>
+	<div id="map"></div>
+	<div class="settings">
+		<div class="inputs">
+			<input type="text" id="filterInput" placeholder="Фильтр по описанию">
+			<input type="text" id="markType" placeholder="Тип">
+			<input type="text" id="markName" placeholder="Название">
+			<input type="text" id="markDesc" placeholder="Описание">
+			<input type="color" id="markColor" value="#ff0000">
+		</div>
+		<div class="buttons">
+			<button id='addMark'>Добавить маркер</button>
+			<button id='saveMark'>Редактировать маркер</button>
+			<button id='delMark'>Удалить маркер</button>
+		</div>
+	</div>
+
+
+</body>
+<script src='js/app.js'></script>
+
+</html>
